@@ -1,0 +1,147 @@
+/*
+Project Name: RaggedDesign website
+Client: ME
+Author: Rachel Girling
+Developer @GA in London
+*/
+
+/* COLOURS */
+/*
+orange: #ff9966
+blue: #3399ff 
+*/
+/* BOILERLATE */
+
+/* Box Model */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.container {
+  margin: 0 auto;
+  width: 95%;
+}
+
+/* Images full width */
+
+img {
+  max-width: 100%;
+}
+
+/* BASE STYLES*/
+
+html {
+  font-size: 22px;
+}
+
+body {
+  line-height: 1.4;
+  font-family: 'Segoe UI';
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: orange;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1 {
+  font-size: 4rem;
+
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+.cta {
+  font-size: 1.2rem;
+  border: 2px solid black;
+  padding: 0.3em 1.5em;
+}
+
+/* UNIVERSAL STYLES*/
+
+nav {
+  float: left;
+  margin: 0 0 2em 0;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 0 2em 0 2em;
+}
+
+nav ul li:first-child {
+  padding-left: 0;
+}
+
+footer {
+  background-color: black;
+}
+
+footer p, footer a {
+  color: white;
+  font-size: 0.8rem;
+}
+
+/* section styles */
+
+/* div styles*/
+
+.logo {
+  text-align: center;
+  padding: 2em 0 2em 0;
+}
+
+.navigation {
+  background-color: white;
+}
+
+.home-title {
+  text-align: center;
+  padding: 5em 0 5em 0;
+}
+
+.mini-skill {
+   width: 40%;
+   float: left;
+}
+
+/* HOMEPAGE*/
+
+.home-top {
+  width: 1500px;
+}
+
+.home-title h1 {
+  padding: 0 0 0.3em 0;
+}
+
+.home-title h3 {
+  padding: 0 0 1.5em 0;
+ }
